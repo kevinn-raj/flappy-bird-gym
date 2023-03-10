@@ -37,15 +37,16 @@ from typing import Dict, Tuple, Union
 import pygame
 
 ############################ Speed and Acceleration ############################
+
 PIPE_VEL_X = -4
 
-PLAYER_MAX_VEL_Y = 10  # max vel along Y, max descend speed
-PLAYER_MIN_VEL_Y = -8  # min vel along Y, max ascend speed
+PLAYER_MAX_VEL_Y = 10# max vel along Y, max descend speed
+PLAYER_MIN_VEL_Y = -8 # min vel along Y, max ascend speed
 
-PLAYER_ACC_Y = 1       # players downward acceleration
-PLAYER_VEL_ROT = 3     # angular speed
+PLAYER_ACC_Y = 1     # players downward acceleration
+PLAYER_VEL_ROT = 3  # angular speed
 
-PLAYER_FLAP_ACC = -9   # players speed on flapping
+PLAYER_FLAP_ACC = -9 # players speed on flapping
 ################################################################################
 
 

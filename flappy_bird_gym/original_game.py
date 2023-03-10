@@ -14,7 +14,7 @@ from pygame.locals import *
 
 ASSETS_DIR = "./flappy_bird_gym/assets"
 
-FPS = 30
+FPS = 120
 SCREEN_WIDTH = 288
 SCREEN_HEIGHT = 512
 PIPE_GAP_SIZE = 100  # gap between upper and lower part of pipe
@@ -214,6 +214,8 @@ def main_game(movement_info):
         {'x': SCREEN_WIDTH + 200 + (SCREEN_WIDTH / 2), 'y': new_pipe2[1]['y']},
     ]
 
+    # VELOCITY 
+    TIME_VEL = 2
     pipe_vel_x = -4
 
     # player velocity, max velocity, downward acceleration, acceleration on flap
