@@ -14,7 +14,7 @@ from pygame.locals import *
 
 ASSETS_DIR = "./flappy_bird_gym/assets"
 
-FPS = 120
+FPS = 30
 SCREEN_WIDTH = 288
 SCREEN_HEIGHT = 512
 PIPE_GAP_SIZE = 100  # gap between upper and lower part of pipe
